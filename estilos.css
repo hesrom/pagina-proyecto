@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenido{
+    width: 500px;
+    margin: 20px auto;
+    text-align: justify;
+}
+.contenido p{
+    margin-bottom: 16px
+}
+main {
+  background: yellow;
+  height: 1000px;
+}
+
+header {
+  background: green;
+  height: 70px;
+}
+
+footer {
+  background: blue;
+  height: 70px;
+}
+
+hr.hidden {
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+}
+
+.scrollNavigation {
+  position: fixed;
+  left: 20px;
+  background: black;
+  padding: 10px;
+  color: white;
+}
+
+a.scrollNavigation[href="#top"] {
+  top: 20px;
+     display: inline-block;
+    padding: 20px;
+    background: #F4F;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+}
+}
+a.scrollNavigation:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+a.scrollNavigation:active {
+  background-color: #555;
+}
+#scrollNavigation {
+position: fixed;
+bottom: 30px; /* Distancia desde abajo */
+right: 30px;
+}
+
+#scrollNavigation span {
+width: 60px; /* Ancho del botón */
+height: 60px; /* Alto del botón */
+display: block;
+background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAAAACPI/ojfEGiaNmGw/s60/flecha-arriba.png) no-repeat center center;
+}

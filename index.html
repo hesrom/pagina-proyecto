@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>estepa</title>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" >
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    </head> 
+    
+        <style type="text/css" media="screen">
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.from-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.from-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+            .button4{
+                background-color: mediumvioletred;
+                border: none;
+                color: white;
+                padding: 15px 32px ;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                float: left;
+            }
+.button4:hover{
+                background-color: black;
+}
+    .button2{
+display: inline-block;
+padding: 10px 25px;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+text-decoration:none;
+outline: none;
+color: #fff;
+background-color: red;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+.button2:hover {background-color: gray}
+.button2:active {
+background-color: gray;
+box-shadow: 0 5px #555;
+transform: translateY(4px);
+} 
+            .button4{
+                background-color: mediumvioletred;
+                border: none;
+                color: white;
+                padding: 15px 32px ;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                float: left;
+            }
+.button4:hover{
+                background-color: black;
+}
+</style>
+
+    
+    <body >
+         <nav class="sidebar">
+             <h1>MENU</h1>
+             <div class="w3-bar-block">
+             <ul>
+                 <li><a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">HOME</a></li>
+                 <li><a href="#flora" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">FLORA</a></li>
+                 <li><a href="#fauna"onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">FAUNA</a></li>
+                 <li><a href="#ubicacion"onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">UBICACION GEOGRAFICA</a></li>
+                 <li><a href="#tipos"onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">TIPOS DE SUELO</a></li>
+                 <li><a href="#mapas" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MAPA DE LOS PAISES</a></li>
+                 <li><a href="#informacion" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">INFORMACION DEL CLIMA</a></li>
+                 <li><a href="#grafica" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">GRAFICA DEL CLIMA</a></li>
+                 <li><a href="#conta" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">CONTACTANOS</a></li>
+             </ul>
+             </div>
+        </nav>
+        
+        <div class="contenido " >
+            <img src="ico.jpg" width="50" height=" 50" alt="" class="menu-bar">
+            <script>
+    $('.menu-bar').on('click',function(){
+    $('.contenido').toggleClass('abrir');
+});
+</script>
+            
+            <center>
+                <h2>ESTEPA</h2></center>
+                       <!-- Header -->
+<div class="header">
+<h1>IMAGENES DE ESTEPA</h1>
+<p>The Steppe iIs The Most Beautiful Thing In Mother Nature</p>
+</div>
+<div class="row">
+<div class="column">
+<img src="es1.jpg" style="width:100%">
+<img src="es2.jpg" style="width:100%">
+</div>
+<div class="column">
+<img src="es3.jpg" style="width:100%">
+</div>
+<div class="column">
+<img src="es7.jpg" style="width:100%">
+<img src="es8.jpg" style="width:100%">
+</div>
+<div class="column">
+<img src="es4.jpg" style="width:100%">
+<img src="es6.jpg" style="width:100%">
+    </div>
+</div>
+            <div class="w3-container" id="flora" style="margin-top:75px">
+    <h1 ><b>FLORA</b></h1><br><br>
+                
+    
+    <p class="w3-row-padding">La flora esteparia se ha adaptado a la escasa humedad del suelo, tendiendo a ser
+de tipo gramínea (hierbas, arbustos cuando mucho) o de matorral, es decir, de poco tamaño, poco
+follaje y poco verdor. Sus raíces profundas les permiten buscar mejores capas del suelo, y
+es común hallar especies rizomáticas y capaces de almacenar agua en sus tejidos, tal y como
+en los desiertos cálidos. Algunas especies vegetales frecuentes en la estepa son el cardón, el ruibarbo, los
+álamos, los cactos, los cistus y diversos tipos de hierbas, algunas capaces de resistir
+incluso temperaturas de -20 °C</p><br><br><br>
+           
+                <center><img src="e5.jpg"/><br><button class="button2"><a href="flora.html"> Seguir viendo>></a></button><br></center>
+  </div>
+    <div class="w3-container" id="fauna" style="margin-top:75px">
+    <h1 ><b>FAUNA</b></h1><br><br>
+   
+    <p>En este ecosistema, se desarrollan especies variadas adaptadas para sobrevivir al clima.</p><br>
+    <p>Bisonte americano
+El bisonte americano (Bison bison), también llamado búfalo, es un bóvido que se distribuye en las estepas de América del Norte.
+2. Marmota bobak
+Entre la fauna de la estepa, otro de los 10 animales es la marmota bobak (Marmota bobak). Esta especie se distribuye en Rusia, Kazajistán y Ucrania, donde habita en diferentes áreas de la estepa. Vive en grupos e hiberna durante 6 meses todos los años.
+
+
+3. Saiga
+La saiga (Saiga tatarica) es una variedad de antílope que se distribuye en parte de Rusia, China, Mongolia, Ucrania, Kazajistán y Uzbekistán. Habita a 1.600 metros de altura en zonas desérticas y estepas.
+
+
+4. Caballo de Przewalski
+El caballo de Przewalski (Equus ferus ssp. przewalskii) es parte de la fauna de la estepa que se distribuye en Mongolia, Rusia, Ucrania y China. </p><br><br><br><br>
+         <center><img src="f2.jpg"/><br><button class="button2"><a href="fauna.html"> Seguir viendo>></a></button><br></center>
+              
+  </div>
+            <div class="w3-container" id="ubicacion" style="margin-top:75px">
+    <h1 ><b>UBICACION GEOGRAFICA</b></h1><br><br>
+   
+    <p>UBICACION: Se localiza a los 45° latitud Norte y Sur. Las regiones fundamentales en las que se desarrolla la estepa son: el Asia central, el centro de América del Norte y el centro oeste de Australia y el sotavento de Nueva Zelanda, el entorno del Río de la Plata y la Patagonia, y algunas zonas de África.
+        <br>
+El clima del área está caracterizado como árido, aunque atemperado por su proximidad al mar y por encontrarse a sotavento del último escalón de la meseta patagónica...</p><br><br><br><br>
+    
+                <center><img src="clima5.jpg"/><br><button class="button2"><a href="ubicacionGeo.html"> Seguir viendo>></a></button><br></center>
+  </div>
+            <div class="w3-container" id="tipos" style="margin-top:75px">
+    <h1 ><b>TIPOS DE SUELO</b></h1><br><br>
+   
+    <p>La estepa es un bioma que consiste en un territorio de vegetación herbácea, propio de climas extremos y escasas precipitaciones.
+También se le asocia a un semidesierto frío, para establecer una diferencia con las sabanas de climas cálidos.Estas regiones se encuentran lejos del mar con clima árido continental, una gran variación térmica entre verano e invierno y precipitaciones que no llegan a los 250 mm anuales.Predominan las hierbas bajas y matorrales.
+El suelo contiene muchos minerales y poca materia orgánica; también hay zonas de la estepa con un alto contenido en óxido de hierro, lo que otorga una tonalidad rojiza a la tierra.
+
+
+    </p>
+         <center><img src="e1.jpeg" width="400" height="200"/><br>
+             <button class="button2"><a href="Estepa2.html"> Seguir viendo>></a></button><br></center>
+  </div>
+            <div class="w3-container" id="mapas" style="margin-top:75px">
+    <h1 ><b>MAPA DE LOS PAISES</b></h1><br><br><br>
+   
+    <p>Alrededor del mundo podemos encontrar variaciones del ecosistema y uno de ellos es la Estepa
+en la imagen anterior podemos observar que hay dos tipos de Estepas la calida y fria y a continuacion veremos su ubicacion y en donde se encuentran mas exactamente<br><br>
+                El Desierto de Chihuahua de México y Estados Unidos.
+
+El desierto de Chihuahua .Se encuentra a ambos lados de la frontera de los Estados Unidos y México: en Estados Unidos ocupa los valles y cuencas del centro del estado de Nuevo México, así como la región al oeste del río Pecos, en el estado de Texas y el sureste de Arizona; en México es parte de las Sierras y Llanuras del Norte, cubriendo gran parte de los estados de Sonora, Chihuahua, Coahuila y Zacatecas. De los cuatro grandes desiertos norteamericanos, el desierto de Chihuahua es el que se encuentra más al este y al sur en el continente. Recibe su nombre por ser en el estado de Chihuahua donde se iniciaron los estudios de este ecosistema....
+</p><br><br><br>
+               <center> <img src="3.jpg" width="400" height="200"/><br>
+    <button class="button2"><a href="MapasEstepa.html"> Seguir viendo>></a></button><br></center>
+  </div>
+            <div class="w3-container" id="informacion" style="margin-top:75px">
+    <h1 ><b>INFORMACION DEL CLIMA</b></h1> <br><br>
+   
+    <p>El clima estepario, de estepa o clima semiárido frío es un clima semiárido característico de los ecosistemas de estepa templada o fría. De acuerdo con la clasificación climática de Köppen se denomina BSk y agrupa a los climas semiáridos templados y fríos que tengan una temperatura media anual inferior a 18°C. Las precipitaciones pueden estar entre 200 y 500 mm aproximadamente....
+    </p><br><br><br>
+          <center><img src="m12.jpg" width="400" height="200"/><br>     
+        <button class="button2"><a href="ClimaEstepa.html"> Seguir viendo>></a></button><br></center>
+  </div>
+            <div class="w3-container" id="grafica" style="margin-top:75px">
+    <h1 ><b>GRAFICA DEL CLIMA</b></h1><br><br>
+   
+    <p>Los diagramas climáticos de meteoblue se basan en 30 años de simulaciones de modelos meteorológicos por hora y están disponibles para cualquier lugar de la Tierra. Le dan una buena indicación de los patrones climáticos típicos y condiciones previstas (temperatura, precipitación, radiación solar y viento). Los datos meteorológicos simulados tienen una resolución espacial de unos 30 km y pueden no reproducir todos los efectos del clima local, como las tormentas, vientos locales o tornados.
+Usted puede explorar el clima para cualquier lugar como la selva amazónica, sabana de África Occidental, el Desierto del Sahara, la tundra de Siberia o el Himalaya....
+    </p><br><br><br><br>
+         <center><img src="Clima.PNG" width="400" height="200"/><br><button class="button2"><a href="proyecto.html"> Seguir viendo>></a></button><br></center>
+  </div>
+        <div class="controls" id="conta" style="margin-top:75px">
+    <h1 ><b>CONTACTANOS</b></h1>
+ 
+    <form action="/action_page.php" target="_blank">
+      <div class="controls">
+        <label>Name</label>
+        <input class="controls" type="text" name="Name" required placeholder="Ingrese su Nombre" required/>
+      </div>
+        <div>
+        <label>Message</label>
+    <input class="controls"  type="text" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" required/>
+        </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+      </div>
+      <div class="controls">
+        <label>Password</label>
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña" required>
+      </div>
+        <p>Estoy de acuerdo con <a href="terminos.txt">Terminos y condiciones</a></p>
+      <button class="button4 button">Registrar</button>
+        <p><a href="inicio.html">Ya tengo una Cuenta</a> </p>
+    </form> 
+    </div>
+  </div>        
+        
+    </body>    
+
+</html>

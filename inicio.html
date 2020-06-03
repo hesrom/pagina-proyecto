@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Iniciar sesion</title>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" >
+    </head> 
+        <style type="text/css" media="screen">
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+            .button4{
+                background-color: mediumvioletred;
+                border: none;
+                color: white;
+                padding: 15px 32px ;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                float: left;
+            }
+.button4:hover{
+                background-color: black;
+}
+    .button2{
+display: inline-block;
+padding: 10px 25px;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+text-decoration:none;
+outline: none;
+color: #fff;
+background-color: red;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+.button2:hover {background-color: gray}
+.button2:active {
+background-color: gray;
+box-shadow: 0 5px #555;
+transform: translateY(4px);
+} 
+            .button4{
+                background-color: mediumvioletred;
+                border: none;
+                color: white;
+                padding: 15px 32px ;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                float: left;
+            }
+.button4:hover{
+                background-color: black;
+}
+</style>
+
+    
+    <body >   
+        <div class="controls" id="conta" style="margin-top:75px">
+    <h1 ><b>CONTACTANOS</b></h1>
+ 
+    <form action="/action_page.php" target="_blank">
+      <div class="controls">
+        <label>Name</label>
+        <input class="controls" type="text" name="Name" required placeholder="Ingrese su Nombre" required/>
+      </div>
+        <div>
+        <label>Message</label>
+    <input class="controls"  type="text" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" required/>
+        </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+      </div>
+      <div class="controls">
+        <label>Password</label>
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña" required>
+      </div>
+      <button class="button4 button">INICIAR</button>
+    </form> 
+    </div>
+    </body>
+</html>

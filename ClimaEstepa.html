@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+<meta charset="UTF-8">
+<title>Clima estepa</title>
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: Arial;
+}
+.header {
+text-align: center;
+padding: 32px;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+@media screen and (max-width: 800px) {
+.column {
+flex: 50%;
+max-width: 50%;
+}
+}
+@media screen and (max-width: 600px) {
+.column {
+flex: 100%;
+max-width: 100%;
+}
+}
+.footer {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+    .pagination {
+display: inline-block; }
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+border: 1px solid #ddd; }
+.pagination a.active {
+background-color: #4CAF50;
+color: white;
+border: 1px solid #4CAF50; }
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:first-child {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px; }
+.pagination a:last-child {
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px; }
+</style>
+</head>
+<body>
+<div class="header">
+<div class="footer">
+  <h1>Clima Estepa</h1>
+</div>
+    <p>Estepas calidas<br>
+Se dan en las cercanias de los desiertos calidos y en algunas partes del altiplano con baja altitud, su temperatura puede ser de 30 grado celsius en el día y en la noche baja a menos cero grado celsius. Su precipitaciones anuales son menores a 300 milimetros pero mayores a 100 milimetros de agua.
+    </p>
+    <br>
+    <p>Estepas frías<br>
+Se ubican en Asia central, en el altiplano andino a 3000 sobre el nivel del mar, suroeste de la Patagonia y en algunas partes de Siberia con inviernos extremadamente fríos, llegando a menos 40 grados celsius. Su precipitaciones son relativamente escasas llegando a un valor anual de 250 milimetros de agua.
+    </p>
+    <br>
+    <p>Estepa subtropical<br>
+En Europa, algunas regiones alrededor del mar Mediterráneo tienen un clima y vegetación similar a la de otras estepas, como en Sicilia (Italia), Zaragoza o Almería (España). Así como la pampa magallánica y el Norte Chico en Chile, también tienen un clima similar al de una estepa.
+    </p>
+    <br>
+    <p>Estepa Puneña o Desierto andino<br>
+La temperatura varia mucho:los días son muy calurosos y las noches, muy frías. Entre las plantas típicas de la Puna está el cardón, un cactus que alcanza varios días sin tomar agua. Los seres vivos están adaptados a este clima extremo y tienen un pelaje que los aísla del calor del día y del frío de la noche. Otros, como las chinchillas, hacen cuevas para protegerse. También hay aves, como el ñandú de la puna y el cóndor andino, en peligro de extinción
+    </p>
+    <br>
+    <p>Para mejor explicacion te presentamos 3 videos para informarse y saber mas y a detalle sobre el clima de la estepa
+    </p>
+    <br>
+<div class="pagination">
+<a href="#">&laquo;</a>
+<a href="https://www.youtube.com/watch?v=WD2Uu_y6cD0">1</a>
+<a class="active" href="https://www.youtube.com/watch?v=GbYL1KSeF2w">2</a>
+<a href="https://www.youtube.com/watch?v=0cr5iPFdJvw">3</a>
+<a href="#">&raquo;</a>
+</div>
+</div>
+<div class="row">
+<div class="column">
+<img src="1.jpg" style="width:100%">
+<img src="2.jpg" style="width:100%">
+<img src="3.jpg" style="width:100%">
+<img src="4.jpg" style="width:100%" height="155">
+</div>
+<div class="column">
+<img src="5.jpg" style="width:100%">
+<img src="6.jpg" style="width:100%">
+<img src="7.jpg" style="width:100%" height="368">
+</div>
+<div class="column">
+<img src="8.jpg" style="width:100%">
+<img src="9.jpg" style="width:100%">
+<img src="10.jpg" style="width:100%" height="350">
+</div>
+<div class="column">
+<img src="11.jpg" style="width:100%">
+<img src="12.jpg" style="width:100%">
+<img src="13.jpg" style="width:100%" height="273">
+</div>
+</div>
+    <br><br>
+     <div class="footer">
+         <style>
+             .button{
+            background-color: black;
+            border: none;
+            color: black;
+            padding: 30px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 2px  2px;
+            cursor: pointer;
+        }
+        .button1{
+                width: 250px;
+                background-color: palevioletred;
+                color: black;
+                border: 4px solid white;
+                }
+            
+                    .button1:hover{
+                     background-color: blueviolet;
+                     color: white;
+                }
+         </style>
+        <body> 
+    <button class="button0 button1"><a href="MapasEstepa.html"><h3>Mapas Estepa</h3></a></button>
+        </body>
+</div>
+</body>
+</html>

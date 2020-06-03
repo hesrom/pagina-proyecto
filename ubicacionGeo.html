@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <meta charset="UtF-8" >
+       <title>Ubicacion Geografica Estepa</title>
+        <link rel="stylesheet" href="estilos.css">
+        <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
+        
+        <script>
+
+jQuery(document).ready(function() {
+  
+  var btn = $('#scrollNavigation');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+
+</script>
+        <style>
+            
+ .button1 {
+    background-color: #00d973;
+    color: white!important; 
+     padding: 20px;
+}
+        </style>
+    </head>
+    
+    
+    <body bgcolor="#0DF8EA">
+        <hr id="top" class="hidden" />
+         <a class="scrollNavigation" href="#top"><img src="pacman.svg"></a>
+            <section class="contenido">
+        <marquee BEHAVIOR=alternate ><h1>Ubicacion Geografica</h1></marquee>
+      <font size=5>  <p>UBICACION: 
+
+Se localiza a los 45° latitud Norte y Sur. Las regiones fundamentales en las que se desarrolla la estepa son: el Asia central, el centro de América del Norte y el centro oeste de Australia y el sotavento de Nueva Zelanda, el entorno del Río de la Plata y la Patagonia, y algunas zonas de África.
+         <center> <img src="estepa.jpg" /></center></p><br>
+        <p><h4>El clima</h4>
+El clima del área está caracterizado como árido, aunque atemperado por su proximidad al mar y por encontrarse a sotavento del último escalón de la meseta patagónica. Posee una temperatura media anual de 13,5°C. La temperatura media mensual varía entre 6,4°C en el mes Julio y 20,4°C en el mes de Enero, pero en ocasiones supera los 30° C.Refugio de Vida Silvestre “La Esperanza” 
+Las precipitaciones oscilan entre los 100 y 200 mm. anuales. Predominan los vientos del oeste y sudoeste. <center> <img src="estepa3.jpg"  /></center></p>
+        <p> <img src="estepa04.jpg" align="right" width="250" height="350"><h4> Suelo</h4>
+
+<li>Los suelos que componen las estepas están poco desarrollados. Son ricos en elementos minerales pero con poca materia orgánica, por lo común menos que en las praderas.</li>
+<li>Las distintas tonalidades que se observan en los suelos de la estepa se deben a los contenidos de óxidos de hierro, que si son elevados les dan una coloración rojiza. En general son suelos duros porque nunca han sido roturados.</li>
+            <li>Los suelos de la estepa son poco profundos, esto se debe a las escasas lluvias, ya que el agua es uno de los factores responsables del desarrollo de los suelos, junto con la temperatura y la roca madre o material a partir del cual se desarrolla.</li>                        </p></font>
+           </section>
+<hr id="bottom" class="hidden" />
+<a class="scrollNavigation" href="#bottom" ><img src="pacman.svg" /></a>
+<center><button class="button1" onclick="location.href='index.html'"><img src="home3.png"/></button></center>
+
+ 
+
+    </body>
+</html>
